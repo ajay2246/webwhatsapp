@@ -1,0 +1,110 @@
+body{
+    width:100%;
+    height:100%;
+    margin:0px;
+}
+*{
+    box-sizing:border-box;
+}
+.container{
+    display:flex;
+    overflow:hidden;
+}
+.leftcontainer{
+    min-width:350px;
+    background-color: rgb(231, 229, 229);
+    height:100vh;
+
+}
+.rightcontainer{
+    flex:1;
+    background-color: rgb(156, 152, 152);
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+.header{
+    display:flex;
+    padding:10px;
+    padding-top:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid grey;
+    background-color: rgb(223, 215, 215);
+    border-left: 1px solid grey;
+    align-items:center;
+}
+.persons{
+    padding-left:10px;
+    padding-top:5px;
+    padding-right:3px;
+}
+.personphoto{
+    border-radius: 20px;
+    padding:5px;
+}
+.person1{
+    display:flex;
+    align-items: center;
+}
+.personname{
+    flex:1;
+    padding-left:8px;
+
+}
+.name{
+    font-weight: 700;
+    font-size: 20px;
+}
+.persons{
+    background-color: white;
+}
+.shadow{
+    background-color: rgb(209, 203, 203);
+    border-bottom: 1px solid black;
+}
+.main{
+    height:85%;
+    background-image: url("https://i.redd.it/qwd83nc4xxf41.jpg");
+
+}
+.image{
+    height:30px;
+    width:30px;
+}
+.bottom{
+    display:flex;
+    align-items: center;
+    padding:5px;
+}
+input{
+    height:40px;
+    width:100%;
+    border-radius: 5px;
+    border:0.25px solid black;
+    font-size: 20px;
+}
+.inp{
+    flex:1;
+    padding:0px 10px
+}
+
+
+.leftmsg{
+    max-width:300px;
+    border-radius: 5px;
+    border:0.24px solid black;
+    padding:15px;
+    margin:20px;
+    font-size: 20px;
+}
+.rightmsg{
+    float:right;
+    min-width:48%;
+    text-align: center;
+    border-radius: 5px;
+    border:0.24px solid black;
+    padding:15px;
+    margin:20px;
+    background-color: rgb(110, 226, 110);
+    font-size: 20px;
+}
